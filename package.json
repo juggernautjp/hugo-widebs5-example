@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "hugo-extended": "^0.109.0",
+    "serve-cli": "^0.2.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.2.1"
+  }
+}
