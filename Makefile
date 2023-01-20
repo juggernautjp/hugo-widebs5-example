@@ -7,8 +7,8 @@ build:
 	$(HUGO_BIN) --cleanDestinationDir
 
 demo:
-	$(HUGO_BIN) server --port 9001 --disableFastRender --ignoreCache
-# -D --bind 0.0.0.0
+	$(HUGO_BIN) server --disableFastRender --ignoreCache
+# -D --port 9001 --bind 0.0.0.0
 
 release: build
 	cp -r ./exampleSite/resources ./resources

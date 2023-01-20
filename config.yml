@@ -40,15 +40,15 @@ module:
       disable:          false
     - path:            "github.com/juggernautjp/hugo-widebs5-theme/dependencies"
       disable:          false
-  mounts:
-    - source: "assets"
-      target: "assets"
+#  mounts:
+#    - source: "assets"
+#      target: "assets"
 # For import Docsy Theme's dependencies/assets/sccs/_vendor
 #    - source:           "assets/bootstrap/scss/_vendor"
 #      target:           "assets/vendor/bootstrap/scss/vendor"
 #    - source:           "scss"
 #      target:           "assets/vendor/bootstrap/scss"
-
+#
 #    - path:             "github.com/juggernautjp/hugo-widebs5-theme"
 #  mounts:
 #    - source:           dist
@@ -77,8 +77,8 @@ params:
   current_ruby_version: "5.3.0-alpha1"
   docs_version:         "5.3"
   rfs_version:          "v9.0.6"
-  github_org:           "https://github.com/twbs"
-  repo:                 "https://github.com/twbs/bootstrap"
+  github_org:           "github.com/juggernautjp"
+  repo:                 "github.com/juggernautjp/hugo-widebs5-example"
   twitter:              "getbootstrap"
   opencollective:       "https://opencollective.com/bootstrap"
   blog:                 "https://blog.getbootstrap.com/"

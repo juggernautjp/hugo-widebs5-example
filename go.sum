@@ -2,3 +2,5 @@ github.com/juggernautjp/hugo-widebs5-theme v0.1.0 h1:Bm5gj2/ZIHlVsiR6wNdy7IBiueO
 github.com/juggernautjp/hugo-widebs5-theme v0.1.0/go.mod h1:plbpEuZokfg5chU3VXYbzIp9B5YcicJ7EN2Ubmz7VQs=
 github.com/juggernautjp/hugo-widebs5-theme/dependencies v0.1.0 h1:gHlaCGniX7cbKAlgvk0Xan124NxQPVcpjm+/dUmdrks=
 github.com/juggernautjp/hugo-widebs5-theme/dependencies v0.1.0/go.mod h1:39ZRs6aPmw4uRrA5X1Hj+i8+SEL3kEzVczXd2qtMltg=
+github.com/twbs/bootstrap v5.3.0-alpha1+incompatible h1:TWdQPnyCB2GbvtvDglzVbOZEiXD7WgXOq8hH/mk2KKE=
+github.com/twbs/bootstrap v5.3.0-alpha1+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
