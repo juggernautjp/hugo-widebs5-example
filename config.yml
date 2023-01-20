@@ -40,10 +40,11 @@ module:
   mounts:
     - source: "assets"
       target: "assets"
-    - source:           "assets/bootstrap/scss/_vendor"
-      target:           "assets/vendor/bootstrap/scss/vendor"
-    - source:           "scss"
-      target:           "assets/vendor/bootstrap/scss"
+# For import Docsy Theme's dependencies/assets/sccs/_vendor
+#    - source:           "assets/bootstrap/scss/_vendor"
+#      target:           "assets/vendor/bootstrap/scss/vendor"
+#    - source:           "scss"
+#      target:           "assets/vendor/bootstrap/scss"
 
 #    - path:             "github.com/juggernautjp/hugo-widebs5-theme"
 #  mounts:
