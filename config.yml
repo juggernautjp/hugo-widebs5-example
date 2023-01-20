@@ -36,7 +36,7 @@ module:
       min: "0.109.0"
       max: ""
   imports:
-     - path:            "github.com/twbs/bootstrap"
+     - path:            "github.com/juggernautjp/hugo-widebs5-theme"
   mounts:
     - source: "assets"
       target: "assets"
