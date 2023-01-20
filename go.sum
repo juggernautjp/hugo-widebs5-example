@@ -1,6 +1,4 @@
-github.com/FortAwesome/Font-Awesome v0.0.0-20220831210243-d3a7818c253f/go.mod h1:IUgezN/MFpCDIlFezw3L8j83oeiIuYoj28Miwr/KUYo=
-github.com/google/docsy/dependencies v0.6.0 h1:BFXDCINbp8ZuUGl/mrHjMfhCg+b1YX+hVLAA5fGW7Pc=
-github.com/google/docsy/dependencies v0.6.0/go.mod h1:EDGc2znMbGUw0RW5kWwy2oGgLt0iVXBmoq4UOqstuNE=
-github.com/twbs/bootstrap v4.6.2+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
-github.com/twbs/bootstrap v5.3.0-alpha1+incompatible h1:TWdQPnyCB2GbvtvDglzVbOZEiXD7WgXOq8hH/mk2KKE=
-github.com/twbs/bootstrap v5.3.0-alpha1+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
+github.com/juggernautjp/hugo-widebs5-theme v0.1.0 h1:Bm5gj2/ZIHlVsiR6wNdy7IBiueOCKFY3A3GgcZWp0Xk=
+github.com/juggernautjp/hugo-widebs5-theme v0.1.0/go.mod h1:plbpEuZokfg5chU3VXYbzIp9B5YcicJ7EN2Ubmz7VQs=
+github.com/juggernautjp/hugo-widebs5-theme/dependencies v0.1.0 h1:gHlaCGniX7cbKAlgvk0Xan124NxQPVcpjm+/dUmdrks=
+github.com/juggernautjp/hugo-widebs5-theme/dependencies v0.1.0/go.mod h1:39ZRs6aPmw4uRrA5X1Hj+i8+SEL3kEzVczXd2qtMltg=

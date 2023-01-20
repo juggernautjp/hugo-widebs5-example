@@ -36,7 +36,10 @@ module:
       min: "0.109.0"
       max: ""
   imports:
-     - path:            "github.com/juggernautjp/hugo-widebs5-theme"
+    - path:            "github.com/juggernautjp/hugo-widebs5-theme"
+      disable:          false
+    - path:            "github.com/juggernautjp/hugo-widebs5-theme/dependencies"
+      disable:          false
   mounts:
     - source: "assets"
       target: "assets"
