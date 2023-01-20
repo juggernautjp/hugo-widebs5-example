@@ -1,5 +1,7 @@
 SHELL=/usr/bin/bash
 HUGO_BIN=hugo
+GO_BIN=go
+
 
 .PHONY: build demo release
 
@@ -14,7 +16,11 @@ release: build
 	cp -r ./exampleSite/resources ./resources
 
 update:
-	$(HUGO_BIN) mod get -u github.com/juggernautjp/hugo-widebs5-theme@latest
+	$(GO_BIN) get -u github.com/juggernautjp/hugo-widebs5-theme@latest
+
+verify:
+	$(GO_BIN) mod verify
 
 clean:
 	rm -rf ./public
+
