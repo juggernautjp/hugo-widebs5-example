@@ -20,6 +20,8 @@ update:
 
 verify:
 	$(GO_BIN) mod verify
+	$(HUGO_BIN) mod verify
+	$(HUGO_BIN)  mod graph
 
 clean:
 	rm -rf ./public
