@@ -2,6 +2,7 @@ languageCode:           "en"
 title:                  "Bootstrap"
 # baseURL:                "https://getbootstrap.com"
 baseURL:                "https://hugo-widebs5-example.pages.dev/"
+theme:     "github.com/juggernautjp/hugo-widebs5-theme"
 
 security:
   enableInlineShortcodes: true
@@ -30,16 +31,14 @@ disableKinds:           ["404", "taxonomy", "term", "RSS"]
 # publishDir:             "_site"
 publishDir:             "public"
 
-module:
-  hugoVersion:
-      extended: true
-      min: "0.109.0"
-      max: ""
-  imports:
-    - path:            "github.com/juggernautjp/hugo-widebs5-theme"
-      disable:          false
-    - path:            "github.com/juggernautjp/hugo-widebs5-theme/dependencies"
-      disable:          false
+# module:
+#   hugoVersion:
+#      extended: true
+#      min: "0.109.0"
+#      max: ""
+#  imports:
+#    - path:            "github.com/juggernautjp/hugo-widebs5-theme"
+#      disable:          false
 #  mounts:
 #    - source: "assets"
 #      target: "assets"
