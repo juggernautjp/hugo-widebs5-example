@@ -2,4 +2,8 @@ module github.com/juggernautjp/hugo-widebs5-example
 
 go 1.19
 
-require github.com/juggernautjp/hugo-widebs5-theme v0.1.0 // indirect
+require (
+	github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20001-0.20220721080824-9446184f84a8 // indirect
+	github.com/juggernautjp/hugo-widebs5-theme v0.1.1-0.20230208151852-5ad9b78a0920 // indirect
+	github.com/twbs/bootstrap v5.3.0-alpha1.0.20230206120820-cbc4e3a40985+incompatible // indirect
+)

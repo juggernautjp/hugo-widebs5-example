@@ -3,6 +3,7 @@ title:                  "Bootstrap"
 # baseURL:                "https://getbootstrap.com"
 baseURL:                "https://hugo-widebs5-example.pages.dev/"
 theme:     "github.com/juggernautjp/hugo-widebs5-theme"
+# theme:     "hugo-widebs5-theme"
 
 security:
   enableInlineShortcodes: true
@@ -110,3 +111,15 @@ params:
   options:
     # experimental: use Dart SASS (dart-sass-embedded) instead of LibSASS
     dartsass:          false
+
+# hugo module configuration
+
+# module:
+  # uncomment line below for temporary local development of module
+  # replacements = "github.com/google/docsy -> ../../docsy"
+#  hugoVersion:
+#    extended: true
+#    min: "0.109.0"
+#  imports:
+#    path: "github.com/juggernautjp/hugo-widebs5-theme"
+
