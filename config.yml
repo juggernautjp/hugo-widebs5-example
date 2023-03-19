@@ -108,10 +108,6 @@ params:
     min: 2
     max: 5
 
-  options:
-    # experimental: use Dart SASS (dart-sass-embedded) instead of LibSASS
-    dartsass:          false
-
 # hugo module configuration
 
 # module:

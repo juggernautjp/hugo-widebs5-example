@@ -8,15 +8,21 @@ build:
 	$(HUGO_BIN) --cleanDestinationDir
 
 demo:
-	$(HUGO_BIN) server --disableFastRender --ignoreCache
+	$(HUGO_BIN) server --disableFastRender --ignoreCache --port 9001
 # -D --port 9001 --bind 0.0.0.0
 
 release: build
 	cp -r ./exampleSite/resources ./resources
 
 update:
-	$(HUGO_BIN) mod get github.com/juggernautjp/hugo-widebs5-theme@main
 #	$(HUGO_BIN) mod get -u github.com/juggernautjp/hugo-widebs5-theme@main
+	$(GO_BIN) get -u github.com/juggernautjp/hugo-widebs5-theme@v0.1.1
+	$(GO_BIN) get -u github.com/twbs/bootstrap@main
+	$(GO_BIN) get -u github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2@main
+
+reget:
+	$(GO_BIN) go mod tidy
+	$(HUGO_BIN) mod get github.com/juggernautjp/hugo-widebs5-theme@v0.1.1
 
 verify:
 	$(HUGO_BIN) mod verify
