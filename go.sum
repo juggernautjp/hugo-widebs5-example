@@ -10,6 +10,10 @@ github.com/juggernautjp/hugo-widebs5-theme v0.1.2-0.20230319120346-e61936876796 
 github.com/juggernautjp/hugo-widebs5-theme v0.1.2-0.20230319120346-e61936876796/go.mod h1:E3+nvBm/ZbfyBcM2T0s85jK6vh3vftSClbfTEuH4Ye0=
 github.com/juggernautjp/hugo-widebs5-theme v0.1.2-0.20230321134612-a856e2d69a28 h1:a7cqddMP/iZHxK54hJ0FjEWLcovvZUn97fLzQT8kRQQ=
 github.com/juggernautjp/hugo-widebs5-theme v0.1.2-0.20230321134612-a856e2d69a28/go.mod h1:lPcMLmhr11LAa33iUGKTrMvGLiREvc+N5U154xki0Ac=
+github.com/juggernautjp/hugo-widebs5-theme v0.1.2-0.20230322010924-48a0ff1c276e h1:/GS/Ej9oUEsd4h6X3yzH1FH7uELFJOsX5To69yCSugA=
+github.com/juggernautjp/hugo-widebs5-theme v0.1.2-0.20230322010924-48a0ff1c276e/go.mod h1:lPcMLmhr11LAa33iUGKTrMvGLiREvc+N5U154xki0Ac=
+github.com/juggernautjp/hugo-widebs5-theme v0.1.2-0.20230322114631-9e33d34aba98 h1:CFbgouMNi0iIFs88JnC+Qbo1MNUhn2lIEsp8jIVf5ks=
+github.com/juggernautjp/hugo-widebs5-theme v0.1.2-0.20230322114631-9e33d34aba98/go.mod h1:lPcMLmhr11LAa33iUGKTrMvGLiREvc+N5U154xki0Ac=
 github.com/twbs/bootstrap v5.2.3+incompatible h1:lOmsJx587qfF7/gE7Vv4FxEofegyJlEACeVV+Mt7cgc=
 github.com/twbs/bootstrap v5.2.3+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
 github.com/twbs/bootstrap v5.3.0-alpha1.0.20230206120820-cbc4e3a40985+incompatible h1:FQJzTrYYk+qGYEb4oiQlcAUBKykaw+qPRmHXqicRLgw=
@@ -26,3 +30,5 @@ github.com/twbs/bootstrap v5.3.0-alpha1.0.20230317141954-5414880e37a7+incompatib
 github.com/twbs/bootstrap v5.3.0-alpha1.0.20230317141954-5414880e37a7+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
 github.com/twbs/bootstrap v5.3.0-alpha1.0.20230321131824-7d0380520570+incompatible h1:QRK/GcNL23yLdO3K/XfauHBSbxKmjNemb6IJ0pYEvB4=
 github.com/twbs/bootstrap v5.3.0-alpha1.0.20230321131824-7d0380520570+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
+github.com/twbs/bootstrap v5.3.0-alpha1.0.20230322082417-b3faa0cfac12+incompatible h1:ffM2J9XhQSvJ26K96+OpuSUtDPpg4dUUBwZRbuKJF20=
+github.com/twbs/bootstrap v5.3.0-alpha1.0.20230322082417-b3faa0cfac12+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
