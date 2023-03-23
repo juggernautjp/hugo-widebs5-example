@@ -223,7 +223,7 @@ document.querySelectorAll('.btn').forEach(buttonElement => {
 
 As part of Bootstrap's evolving CSS variables approach, buttons now use local CSS variables on `.btn` for enhanced real-time customization. Values for the CSS variables are set via Sass, so Sass customization is still supported, too.
 
-{{< scss-docs name="btn-css-vars" file="bootstrap/scss/_buttons.scss" >}}
+{{< scss-docs name="btn-css-vars" file="scss/_buttons.scss" >}}
 
 Each `.btn-*` modifier class updates the appropriate CSS variables to minimize additional CSS rules with our `button-variant()`, `button-outline-variant()`, and `button-size()` mixins.
 
@@ -237,20 +237,20 @@ Here's an example of building a custom `.btn-*` modifier class like we do for th
 
 ### Sass variables
 
-{{< scss-docs name="btn-variables" file="bootstrap/scss/_variables.scss" >}}
+{{< scss-docs name="btn-variables" file="scss/_variables.scss" >}}
 
 ### Sass mixins
 
 There are three mixins for buttons: button and button outline variant mixins (both based on `$theme-colors`), plus a button size mixin.
 
-{{< scss-docs name="btn-variant-mixin" file="bootstrap/scss/mixins/_buttons.scss" >}}
+{{< scss-docs name="btn-variant-mixin" file="scss/mixins/_buttons.scss" >}}
 
-{{< scss-docs name="btn-outline-variant-mixin" file="bootstrap/scss/mixins/_buttons.scss" >}}
+{{< scss-docs name="btn-outline-variant-mixin" file="scss/mixins/_buttons.scss" >}}
 
-{{< scss-docs name="btn-size-mixin" file="bootstrap/scss/mixins/_buttons.scss" >}}
+{{< scss-docs name="btn-size-mixin" file="scss/mixins/_buttons.scss" >}}
 
 ### Sass loops
 
 Button variants (for regular and outline buttons) use their respective mixins with our `$theme-colors` map to generate the modifier classes in `scss/_buttons.scss`.
 
-{{< scss-docs name="btn-variant-loops" file="bootstrap/scss/_buttons.scss" >}}
+{{< scss-docs name="btn-variant-loops" file="scss/_buttons.scss" >}}
