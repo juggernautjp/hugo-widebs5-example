@@ -3,6 +3,7 @@ title:                  "Bootstrap"
 # baseURL:                "https://getbootstrap.com"
 baseURL:                "https://hugo-widebs5-example.pages.dev/"
 theme:     "github.com/juggernautjp/hugo-widebs5-theme"
+# if git clone github.com/juggernautjp/hugo-widebs5-theme theme/hugo-widebs5-theme
 # theme:     "hugo-widebs5-theme"
 
 security:
@@ -37,12 +38,15 @@ publishDir:             "public"
 #      extended: true
 #      min: "0.109.0"
 #      max: ""
-#  imports:
-#    - path:            "github.com/juggernautjp/hugo-widebs5-theme"
-#      disable:          false
-#  mounts:
-#    - source: "assets"
-#      target: "assets"
+#   imports:
+#    - path:      "github.com/juggernautjp/hugo-widebs5-theme"
+#      mounts:
+#       - source: "doc/scss"
+#         target: "assets/scss"
+#       - source: "doc/js"
+#         target: "assets/js"
+#       - source: "assets"
+#         target: "assets"
 # For import Docsy Theme's dependencies/assets/sccs/_vendor
 #    - source:           "assets/bootstrap/scss/_vendor"
 #      target:           "assets/vendor/bootstrap/scss/vendor"
