@@ -4,6 +4,7 @@
 *.dll
 *.so
 *.dylib
+*.bak
 
 # Test binary, built with `go test -c`
 *.test
@@ -16,15 +17,16 @@ _vendor/
 
 *.lock
 /.idea
-/.vscode
-/public
-/dist
-node_modules
+/.vscode/
+/public/
+/dist/
+/node_modules/
 nohup.out
 .DS_Store
 .hugo_build.lock
-resources/_gen/images/
+/resources/
+/data/bak/
 
 # for hugo theme
-themes/
+/themes/
 

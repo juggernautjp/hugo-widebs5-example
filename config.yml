@@ -33,20 +33,34 @@ disableKinds:           ["404", "taxonomy", "term", "RSS"]
 # publishDir:             "_site"
 publishDir:             "public"
 
-# module:
-#   hugoVersion:
-#      extended: true
-#      min: "0.109.0"
-#      max: ""
-#   imports:
-#    - path:      "github.com/juggernautjp/hugo-widebs5-theme"
-#      mounts:
-#       - source: "doc/scss"
-#         target: "assets/scss"
-#       - source: "doc/js"
-#         target: "assets/js"
-#       - source: "assets"
-#         target: "assets"
+module:
+  hugoVersion:
+     extended: true
+     min: "0.109.0"
+     max: ""
+  mounts:
+    - source: "assets"
+      target: "assets"
+  imports:
+    - path: "github.com/twbs/bootstrap"
+      mounts:
+        - source: "scss"
+          target: "assets/bootstrap/scss"
+        - source: "js"
+          target: "assets/bootstrap/js"
+        - source: "dist"
+          target: "static/bootstrap"
+    - path: "github.com/juggernautjp/hugo-widebs5-theme"
+      mounts:
+        - source: "archetypes"
+          target: "archetypes"
+        - source: "assets"
+          target: "assets"
+        - source: "content"
+          target: "content"
+        - source: "layouts"
+          target: "layouts"
+    - path: "github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2"
 # For import Docsy Theme's dependencies/assets/sccs/_vendor
 #    - source:           "assets/bootstrap/scss/_vendor"
 #      target:           "assets/vendor/bootstrap/scss/vendor"
@@ -81,8 +95,8 @@ params:
   current_ruby_version: "5.3.0-alpha1"
   docs_version:         "5.3"
   rfs_version:          "v9.0.6"
-  github_org:           "github.com/juggernautjp"
-  repo:                 "github.com/juggernautjp/hugo-widebs5-example"
+  github_org:           "https://github.com/juggernautjp"
+  repo:                 "https://github.com/juggernautjp/hugo-widebs5-example"
   twitter:              "getbootstrap"
   opencollective:       "https://opencollective.com/bootstrap"
   blog:                 "https://blog.getbootstrap.com/"
@@ -112,14 +126,8 @@ params:
     min: 2
     max: 5
 
-# hugo module configuration
 
-# module:
-  # uncomment line below for temporary local development of module
-  # replacements = "github.com/google/docsy -> ../../docsy"
-#  hugoVersion:
-#    extended: true
-#    min: "0.109.0"
-#  imports:
-#    path: "github.com/juggernautjp/hugo-widebs5-theme"
+params:
+  options:
+    bsa_path: ""
 
